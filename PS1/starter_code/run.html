@@ -1,0 +1,21 @@
+<html>
+
+<body>
+    <img id="PacMan1" src="PacMan1.png" style="position:absolute" width='200'>
+    <!-- <img id="PacMan2" src="PacMan2.png" style.display = "none" width='200'>
+    <img id="PacMan3" src="PacMan3.png" style.display = "none" width='200'>
+    <img id="PacMan4" src="PacMan4.png" style.display = "none" width='200'> -->
+
+    <script src="exercise.js"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+            exercise.pos = {
+                x: 0
+            };
+            exercise.img1 = document.getElementById('PacMan1');
+            setInterval(exercise.run, 200);
+        };
+    </script>
+</body>
+
+</html>
